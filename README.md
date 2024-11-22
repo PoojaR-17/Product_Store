@@ -1,7 +1,7 @@
 # Product_Store
 Product Store Application
 This project is a simple Product Store Application implemented using HTML, CSS, and JavaScript. It includes a dynamic product listing page with filtering, sorting, and pagination functionality, as well as a shopping cart page where users can view items they’ve added.
-https://github.com/PoojaR-17/Product_Store/blob/main/SS.png
+![Product_Store](https://github.com/PoojaR-17/Product_Store/blob/main/SS.png)
 Project Structure
 /
 ├── index.html          # Main Product Store Page
