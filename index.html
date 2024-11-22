@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Store</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Product Store</h1>
+    <a href="cart.html">View Cart</a>
+  </header>
+  <div class="filters">
+    <select id="category-filter">
+      <option value="">All Categories</option>
+      <!-- Populate dynamically -->
+    </select>
+    <select id="sort-filter">
+      <option value="">Sort By</option>
+      <option value="price-asc">Price: Low to High</option>
+      <option value="price-desc">Price: High to Low</option>
+    </select>
+  </div>
+  <div id="product-list" class="product-list"></div>
+  <div class="pagination" id="pagination"></div>
+  <script src="script.js"></script>
+</body>
+</html>
